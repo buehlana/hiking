@@ -1,7 +1,10 @@
-<div>
-    <h3> Jungfraujoch</h3>
-    <h4> Canton: </h4>
-    <p> Bern </p>
+<script>
+    let {name = ""} = $props(); 
+</script>
+
+
+<div class = "box">
+    <h4> <b> {name}</b></h4>
 </div>
 
 <style>

@@ -1,8 +1,13 @@
-
 <script>
-    let {data} = $props()
+	export let data; 
+	const {canton, hikes } = data;
 </script>
 
-<h1>Canton Details</h1>
-<p> {data._id}</p>
-<p> {data.name}</p>
+<h1> Available hikes in canton {canton.name}</h1>
+<h1> canton ID {canton.canton_id}</h1>
+
+<ul>
+	{#each hikes as hike}
+	<li>{hike.name}</li>
+	{/each}
+</ul>

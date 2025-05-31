@@ -1,4 +1,4 @@
-import db from '$lib/db.js'; 
+import db from '$lib/server/db.js'; 
 
 
 export async function load () {
@@ -6,3 +6,4 @@ export async function load () {
         cantons: await db.getCantons()
     }
 }
+

@@ -1,9 +1,15 @@
+import db from '$lib/server/db.js'; 
 
-import db from '$lib/db.js'
-
-export function load ({params}){
-
-    let cantons = db.getCanton(params.canton_id)
-
-    return canton
+export async function load ({params}) {
+	
+	const id = params.canton_id
+	const canton = await db.getCanton(id)
+	const hikes = await db.getHikesByCanton(id)
+	return {
+		canton,
+		hikes
+	}
 }
+
+
+
