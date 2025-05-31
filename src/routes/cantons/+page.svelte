@@ -9,7 +9,7 @@
 
 <div>
     {#each cantons as canton}
-        <a href={"/cantons/" +canton._id}>
+        <a href={`/cantons/${canton.canton_id}`}>
             <Canton name={canton.name} />
         </a>
     {/each}
