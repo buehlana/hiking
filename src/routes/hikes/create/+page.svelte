@@ -13,7 +13,7 @@
 <h1><strong>Add a hike to our database</strong></h1>
 <form method="POST" onsubmit={handleSubmit}>
   <div class="mb-3">
-    <label for="" class="form-label">Name</label>
+    <label for="" class="form-label">Name of the hike</label>
     <input name="name" class="form-control" type="text" />
   </div>
   <div class="mb-3">
