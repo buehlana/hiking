@@ -7,3 +7,17 @@ export async function load({ params}) {
 
     return {guide}
 }
+
+export const actions = {
+    default: async ({ request }) => {
+        const data = await request.formData();
+
+        const booking = {
+            first: data.get('first'),
+            last: data.get('last'),
+            date: data.get('date'),
+            message: data.get('message')
+        };
+        return { success: true };
+    }
+};

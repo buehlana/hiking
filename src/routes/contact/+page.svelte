@@ -38,5 +38,5 @@
 		<textarea name="message" id="message" rows="5" required></textarea>
 	</div>
 
-	<button type="submit">Send</button>
+	<button type="submit" style="margin-bottom: 40px; margin-top: 10px">Send</button>
 </form>
