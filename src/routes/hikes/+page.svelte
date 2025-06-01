@@ -16,7 +16,8 @@
 </script>
 
 <h1>Swiss hiking routes</h1>
-<div class="button-group">
+
+<div class="buttonAdd">
 	<button onclick={addNew}>Add new hiking route</button>
 </div>
 

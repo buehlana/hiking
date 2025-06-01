@@ -39,7 +39,7 @@
 </div>
 
 <div class="text-center mt-4">
-  <button onclick={goToGuides} style="margin-bottom: 40px;">
+  <button onclick={goToGuides}>
     Book Private Tour
   </button>
 </div>

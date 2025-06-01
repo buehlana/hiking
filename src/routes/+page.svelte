@@ -30,7 +30,7 @@
     />
 </div>
 
-<p class="text-center" style="margin-top: 20px; margin-bottom: 40px">
+<p class="text-center">
     Whether you're an experienced mountaineer or just looking for a scenic
     weekend escape, our platform helps you find the right hike for your mood,
     skill level, and time frame.

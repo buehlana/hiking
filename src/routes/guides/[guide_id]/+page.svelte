@@ -6,22 +6,22 @@
     let person = $state({
         first: "",
         last: "",
-        email:"",
+        email: "",
         date: "",
         message: "",
     });
 
-   function handleSubmit() {
-		alert("Thank you for your request!");
-		formEl?.reset();
-	}
+    function handleSubmit() {
+        alert("Thank you for your request!");
+        formEl?.reset();
+    }
 </script>
 
 <h1>Book a tour with {guide.first_name} {guide.last_name}</h1>
 <h5>Language: <strong> {guide.language}</strong></h5>
 <h5>Phone number: <strong> {guide.phone} </strong></h5>
 
-<div class="containe mt-3">
+<div class="container mt-3">
     <form onsubmit={handleSubmit} method="POST" bind:this={formEl}>
         <div class="mb-3">
             <label class="form-label" for="first"> First Name</label>
@@ -46,9 +46,15 @@
         </div>
 
         <div class="mb-3">
-		<label class="form-label" for="email">E-mail address</label>
-		<input class="form-control" id="email" type="email"  bind:value={person.email} required />
-	</div>
+            <label class="form-label" for="email">E-mail address</label>
+            <input
+                class="form-control"
+                id="email"
+                type="email"
+                bind:value={person.email}
+                required
+            />
+        </div>
 
         <div class="mb-3">
             <label class="form-label" for="date">Requested Date of Tour</label>
@@ -76,5 +82,3 @@
         >
     </form>
 </div>
-
-

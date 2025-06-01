@@ -10,6 +10,22 @@ h2 {
    color: rgb(21, 49, 16);
 }
 
+h3 {
+   color: rgb(21, 49, 16);
+}
+
+h5 {
+   color: rgb(21, 49, 16);
+}
+
+p{
+   margin-top: 20px; 
+   margin-bottom: 40px
+}
+button {
+   margin-top: 30 px; 
+   margin-bottom: 40px; 
+}
 .form-title {
    font-size: 50px;
    margin-bottom: 40px;
@@ -52,6 +68,12 @@ button {
    margin-bottom: 50px;   
 }
 
+.buttonAdd {
+   display: flex;
+	justify-content: center;
+   margin-bottom: 5px;   
+}
+
 .button-group button {
    background-color: rgb(19, 58, 68);
 	width: 200px; 
@@ -88,5 +110,3 @@ section {
 .hover-card:hover .card-title {
   color: #6b8842; 
 }
-
-
