@@ -8,6 +8,7 @@
         last: "",
         email: "",
         date: "",
+        hike: "", 
         message: "",
     });
 
@@ -63,6 +64,17 @@
                 id="date"
                 type="date"
                 bind:value={person.date}
+            />
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label" for="hike"> Name of the Hiking Route</label>
+            <input
+                class="form-control"
+                id="hike"
+                type="text"
+                bind:value={person.hike}
+                required
             />
         </div>
 
