@@ -22,7 +22,7 @@
 		<div class="card-body">
 			<h5 class="card-title">
 				<a href={`/guides/${guide.id}`} class="text-decoration-none text-dark">
-					{guide.first_name} {guide.last_name}
+					<strong>{guide.first_name} {guide.last_name}</strong>
 				</a>
 			</h5>
 			<p class="card-text mb-1">
