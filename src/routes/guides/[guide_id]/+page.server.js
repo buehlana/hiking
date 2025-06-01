@@ -13,10 +13,12 @@ export const actions = {
         const data = await request.formData();
 
         const booking = {
-            first: data.get('first'),
-            last: data.get('last'),
-            date: data.get('date'),
-            message: data.get('message')
+            first: data.get("first"),
+            last: data.get("last"),
+            date: data.get("date"),
+            hike: data.get("hike"),
+            email: data.get("emal"),
+            message: data.get("message")
         };
         return { success: true };
     }

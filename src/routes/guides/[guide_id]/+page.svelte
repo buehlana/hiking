@@ -64,6 +64,7 @@
                 id="date"
                 type="date"
                 bind:value={person.date}
+                required
             />
         </div>
 
