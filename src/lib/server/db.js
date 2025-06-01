@@ -58,6 +58,18 @@ async function getCanton(id) {
   return canton;
 }
 
+// get canton id by name
+async function getCantonByName(name) {
+  try {
+    const collection = db.collection("cantons");
+    return await collection.findOne({ name: name });
+  } catch (error) {
+    console.log("getCantonByName error:", error.message);
+    return null;
+  }
+
+}
+
 // get all the hikes by canton
 async function getHikesByCanton(id) {
   let hikes = [];
@@ -65,7 +77,6 @@ async function getHikesByCanton(id) {
     const collection = db.collection("hiking_routes");
 
     const numericId = parseInt(id);
-    console.log("Querying hikes with canton_id:", numericId);
     const query = { canton_id: numericId };
     hikes = await collection.find(query).sort({ name: 1 }).toArray();
     hikes.forEach(hike => {
@@ -111,12 +122,13 @@ async function createHike(hike) {
   } catch (error) {
     // TODO: errorhandling
     console.log(error.message);
+
   }
   return null;
 }
 
 // delete hike by id
-// returns: id of the deleted artist or null, if artist could not be deleted
+// returns: id of the deleted hike or null, if hike could not be deleted
 async function deleteHike(id) {
   try {
     const collection = db.collection("hiking_routes");
@@ -136,20 +148,6 @@ async function deleteHike(id) {
   return null;
 }
 
-// get canton id by name
-async function getCantonByName(name) {
-  try {
-    const collection = db.collection("cantons");
-    return await collection.findOne({ name: name });
-  } catch (error) {
-    console.log("getCantonByName error:", error.message);
-    return null;
-  }
-}
-
-
-
-
 // get all guides 
 async function getGuides() {
   let guides = [];
@@ -168,7 +166,7 @@ async function getGuides() {
 
 //get a guide
 async function getGuide(id) {
-  let guide = null; 
+  let guide = null;
   try {
     const collection = db.collection("guides");
     guide = await collection.findOne({ id: id });
@@ -193,6 +191,6 @@ export default {
   getCantonByName,
   createHike,
   getGuides,
-  getGuide, 
+  getGuide,
   deleteHike
 }

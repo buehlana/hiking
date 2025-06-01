@@ -1,19 +1,19 @@
 
 h1 {
    text-align: center;
-   color: darkblue;
+   color: rgb(21, 49, 16);
    margin-bottom: 32px;
 }
 
 h2 {
    margin-top: 32px;
-   color: #0056b3;
+   color: rgb(21, 49, 16);
 }
 
 .form-title {
    font-size: 50px;
    margin-bottom: 40px;
-   color: navy;
+   color: rgb(21, 49, 16);
 }
 
 .form-group {
@@ -47,11 +47,13 @@ button {
 
 .button-group {
 	display: flex;
-	gap: 12px;
+	gap: 50px;
 	justify-content: center;
+   margin-bottom: 50px;   
 }
 
 .button-group button {
+   background-color: rgb(19, 58, 68);
 	width: 200px; 
 }
 
@@ -71,4 +73,20 @@ section {
    line-height: 1.8;
    color: #333;
 }
+
+.view-details-text {
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  font-size: 15px;
+  color: #283b32; 
+}
+
+.hover-card:hover .view-details-text {
+  opacity: 1;
+}
+
+.hover-card:hover .card-title {
+  color: #6b8842; 
+}
+
 

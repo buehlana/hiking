@@ -2,11 +2,12 @@ import db from '$lib/server/db.js';
 
 
 export async function load () {
-    return {
-        hikes: await db.getHikes() 
-        
-    }
+    let hikes = await db.getHikes(); 
+    let cantons = await db.getCantons(); 
+    return {hikes, cantons}
 }
+
+
 
 export const actions = {
     delete: async({request}) => {
