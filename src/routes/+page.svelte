@@ -36,6 +36,6 @@
     skill level, and time frame.
 </p>
 <div class="button-group">
-    <button on:click={explore}>Explore Switzerland</button>
-    <button on:click={goToGuides}>Private Tour</button>
+    <button onclick={explore}>Explore Switzerland</button>
+    <button onclick={goToGuides}>Private Tour</button>
 </div>

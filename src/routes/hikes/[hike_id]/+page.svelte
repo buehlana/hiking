@@ -1,6 +1,6 @@
 <script>
   import { goto } from "$app/navigation";
-  export let data;
+  let { data } = $props();
   const { hike, canton } = data;
 
   function goToGuides() {
@@ -39,7 +39,7 @@
 </div>
 
 <div class="text-center mt-4">
-  <button on:click={goToGuides} style="margin-bottom: 40px;">
+  <button onclick={goToGuides} style="margin-bottom: 40px;">
     Book Private Tour
   </button>
 </div>

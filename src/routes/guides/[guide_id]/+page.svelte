@@ -1,14 +1,14 @@
 <script>
-    export let data;
+    let { data } = $props();
     const { guide } = data;
     let formEl;
 
-    let person = {
+    let person = $state({
         first: "",
         last: "",
         date: "",
         message: "",
-    };
+    });
 
     function requestSubmit() {
         alert("Thank you for request!");
