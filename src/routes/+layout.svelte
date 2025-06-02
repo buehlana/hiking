@@ -77,19 +77,19 @@
       </div>
 
       <div class="col-md-5 text-center">
-        At <strong>Swiss Hike Guide</strong>, we believe that the best way to
+        At <b>Swiss Hike Guide</b>, we believe that the best way to
         experience Switzerland is on foot.
         <p class="mb-0">
           <br />
-          <strong>
+          <b>
             Discover breathtaking trails, unforgettable views, and hidden paths
             — all in one place.
-          </strong>
+          </b>
         </p>
       </div>
 
       <div class="col-md-4 text-end">
-        <strong>Swiss Hike Guide GmbH</strong><br />
+        <b>Swiss Hike Guide GmbH</b><br />
         Alpenstrasse 12<br />
         8001 Zürich, Switzerland<br />
         +41 44 123 45 67<br />

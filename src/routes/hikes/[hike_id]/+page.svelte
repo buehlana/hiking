@@ -9,12 +9,12 @@
 </script>
 
 <div class="container mt-5 text-center">
-  <h1>Top the <strong>{hike.name}</strong></h1>
+  <h1>Top the <b>{hike.name}</b></h1>
 
   <div class="row align-items-center">
     <div class="col-md-6">
       <p>
-        <strong>Canton:</strong>
+        <b>Canton:</b>
         <a
           href={`/cantons/${canton.canton_id}`}
           class="text-decoration-none text-dark"
@@ -22,9 +22,9 @@
           {canton.name}
         </a>
       </p>
-      <p><strong>Duration:</strong> {hike.duration}</p>
-      <p><strong>Distance:</strong> {hike.distance}</p>
-      <p><strong>Elevation:</strong> {hike.elevation}</p>
+      <p><b>Duration:</b> {hike.duration}</p>
+      <p><b>Distance:</b> {hike.distance}</p>
+      <p><b>Elevation:</b> {hike.elevation}</p>
     </div>
 
     <div class="col-md-6 text-center">

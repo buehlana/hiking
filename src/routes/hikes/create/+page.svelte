@@ -10,7 +10,7 @@
 </script>
 
 <a href="/hikes" class="text-decoration-none text-dark">View all hikes</a>
-<h1><strong>Add a hike to our database</strong></h1>
+<h1><b>Add a hike to our database</b></h1>
 <form method="POST" onsubmit={handleSubmit}>
   <div class="mb-3">
     <label for="" class="form-label">Name of the hike</label>

@@ -4,7 +4,7 @@
 	let guides = data.guides;
 </script>
 
-<h1 style="margin-top: 40px;"><strong> Meet Our Hiking Guides</strong></h1>
+<h1 style="margin-top: 40px;"><b> Meet Our Hiking Guides</b></h1>
 <h2 class="text-center">Choose Your Guide</h2>
 
 <div class="container mt-4">
@@ -22,14 +22,14 @@
 		<div class="card-body">
 			<h5 class="card-title">
 				<a href={`/guides/${guide.id}`} class="text-decoration-none text-dark">
-					<strong>{guide.first_name} {guide.last_name}</strong>
+					<b>{guide.first_name} {guide.last_name}</b>
 				</a>
 			</h5>
 			<p class="card-text mb-1">
-				<strong>Language:</strong> {guide.language}
+				<b>Language:</b> {guide.language}
 			</p>
 			<p class="card-text">
-				<strong>Phone:</strong> {guide.phone}
+				<b>Phone:</b> {guide.phone}
 			</p>
 		</div>
 	</div>

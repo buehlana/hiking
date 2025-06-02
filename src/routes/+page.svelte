@@ -16,10 +16,10 @@
 </h1>
 
 <h3 class="text-center">
-    <strong>
+    <b>
         Discover breathtaking trails, unforgettable views, and hidden paths —
         all in one place.
-    </strong>
+    </b>
 </h3>
 
 <div class="card mt-4" style="max-width: 800px; margin: auto;">

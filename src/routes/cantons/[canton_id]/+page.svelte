@@ -3,7 +3,7 @@
   const { canton, hikes } = data;
 </script>
 
-<h1>Available hikes in <strong> {canton.name} </strong></h1>
+<h1>Available hikes in <b> {canton.name} </b></h1>
 
 <div class="card mt-4" style="max-width: 800px; margin: auto;">
   <img

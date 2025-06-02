@@ -6,15 +6,15 @@
 
 <section>
 	<p>
-		At <strong>Swiss Hike Guide</strong>, we believe that the best way to
+		At <b>Swiss Hike Guide</b>, we believe that the best way to
 		experience Switzerland is on foot.
 	</p>
 	<p>
 		Founded in 2024 by a group of mountain lovers, our mission is simple: <br
 		/>
-		<strong
+		<b
 			>help people of all levels explore Switzerland’s breathtaking trails
-			with confidence and ease.</strong
+			with confidence and ease.</b
 		>
 	</p>
 	<p>
@@ -26,18 +26,18 @@
 
 	<h2>What We Offer</h2>
 	<ul>
-		<li>A growing <strong>collection of hand-picked hikes</strong></li>
+		<li>A growing <b>collection of hand-picked hikes</b></li>
 		<li>Detailed route info: distance, elevation and duration</li>
 		<li>
-			<strong>User-friendly interface</strong> optimized for mobile explorers
+			<b>User-friendly interface</b> optimized for mobile explorers
 		</li>
 	</ul>
 
 	<h2>Our Vision</h2>
 	<p>
-		We believe hiking should be <strong>accessible</strong>,
-		<strong>sustainable</strong>, and above all —
-		<strong>joyful</strong>.<br />
+		We believe hiking should be <b>accessible</b>,
+		<b>sustainable</b>, and above all —
+		<b>joyful</b>.<br />
 		That’s why we’re committed to promoting respectful trail use, protecting
 		natural spaces, and celebrating the hidden gems of the Swiss outdoors.
 	</p>

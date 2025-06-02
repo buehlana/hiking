@@ -19,8 +19,8 @@
 </script>
 
 <h1>Book a tour with {guide.first_name} {guide.last_name}</h1>
-<h5>Language: <strong> {guide.language}</strong></h5>
-<h5>Phone number: <strong> {guide.phone} </strong></h5>
+<h5>Language: <b> {guide.language}</b></h5>
+<h5>Phone number: <b> {guide.phone} </b></h5>
 
 <div class="container mt-3">
     <form onsubmit={handleSubmit} method="POST" bind:this={formEl}>
