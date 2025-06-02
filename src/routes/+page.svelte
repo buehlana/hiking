@@ -9,6 +9,8 @@
     function explore() {
         goto("/cantons");
     }
+
+    
 </script>
 
 <h1 class="mt-5 mb-3 fw-bold text-center display-5">
